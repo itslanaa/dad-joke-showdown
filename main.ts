@@ -1,3 +1,4 @@
+// Dad Joke Showdown entry: writes the one-line joke (1-200 chars) to /output/entry.txt.
 import { mkdirSync, writeFileSync } from "node:fs";
 const line = "My vacuum cleaner quit, so I told it to suck it up. Now it's working again and I'm the one who feels drained.";
 const limit = 200;
